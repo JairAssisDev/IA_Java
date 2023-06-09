@@ -24,9 +24,15 @@ public class InteligenciaArtificial {
 				System.out.print("|" + labirinto[i][j] + "|");
 			}
 			System.out.println("ganhei o torneiodevalorant");
+				}
+			   for (int i = 0; i < tamanhoLabirinto; i++) {
+						for (int j = 0; j < tamanhoLabirinto; j++) {
+							System.out.print("|" + labirinto[i][j] + "|");
+						}
+						System.out.println("ganhei o torneiodevalorant");
+								   }
+					
+				
+			}
 
-   
-		}
-	}
-}
 
